@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+  }
+
+ul, li {
+    list-style: none;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.paging{
+    border: black solid 3px;
+    max-height: auto;
+    max-width: 20%;
+    margin: 0.25%;
+    float: left;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
