@@ -1,6 +1,6 @@
 <?php
-    require 'Medoo.php';
-    require 'C:\Medoo-master\vendor\autoload.php';
+    require 'src\Medoo.php';
+    require '\vendor\autoload.php';
     use Medoo\Medoo;
     $database = new Medoo([
         'type' => 'mariadb',
