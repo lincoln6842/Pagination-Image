@@ -1,5 +1,5 @@
 <?php
-    require 'src\Medoo.php';
+    require '\vendor\catfan\medoo\src\Medoo.php';
     require '\vendor\autoload.php';
     use Medoo\Medoo;
     $database = new Medoo([
